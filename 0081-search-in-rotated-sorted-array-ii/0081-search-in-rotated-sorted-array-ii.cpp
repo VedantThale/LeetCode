@@ -13,7 +13,7 @@ public:
                 start++,end--;
                 continue;
             }
-            if (nums[mid]>=nums[start])
+            else if (nums[mid]>=nums[start])
             {
                 if(nums[start]<=target && nums[mid]>=target)
                 end=mid-1;
